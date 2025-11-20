@@ -19,7 +19,7 @@ import streamlit as st
 # ---------------------------------------------------------------------
 
 # You can adapt these dates if your instructor gave specific ones.
-COMMIT_DEADLINE_UTC = datetime(2025, 10, 21, 21, 59, 59, tzinfo=timezone.utc)
+COMMIT_DEADLINE_UTC = datetime(2030, 1, 1, 23, 59, 59, tzinfo=timezone.utc)
 REVEAL_OPEN_UTC = datetime(2025, 10, 21, 22, 0, 0, tzinfo=timezone.utc)
 
 # Fallback URL if info.txt is missing or malformed
