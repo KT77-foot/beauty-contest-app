@@ -77,7 +77,7 @@ def page_commit(api_url: str):
     if submitted:
         preimage, commit_hash, resp = send_commit(api_url, uni_id, int(number), nonce)
         st.success("Commit sent.")
-        st.code(f"PREIMAGE: {preimage}
+        st.code(f"PREIMAGE: {preimage}")
 COMMIT HASH: {commit_hash}")
 
 def page_reveal(api_url: str):
